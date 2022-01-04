@@ -1,0 +1,34 @@
+
+1. [https://www.typescriptlang.org/download](https://www.typescriptlang.org/download)
+
+*********************************************
+2. Através de comando pelo prompt:
+
+    >> npm install -g typescript
+
+    >> O TypeScript pode ser instalado apenas no projeto local ou globalmente (ficando disponível para ser utilizado em todos os projetos)
+
+    >> O node deve estar instalado para rodar um comando npm, que fará a instalação do TS
+
+*********************************************
+3. Verificar se está funcionando: tsc --version
+
+*********************************************
+4. Habilitar o terminal do Vscode para comandos do type script
+
+    a. Execute o PowerShell como administrador e execute a função:  
+
+        >> Set-ExecutionPolicy Unrestricted
+
+*********************************************
+5. Criar arquivo JS (convertido) a partir do arquivo TS
+
+    a. Dentro da pasta do projeto digite:
+
+        >> tsc nomeArquivo.ts (Js e Ts na mesma pasta)
+
+        >> tsc src/script.ts --outDir public (Js e Ts em pastas diferentes)
+
+        >> tsc script.ts --noEmitOnError (Se tiver algum error no TS ele não vai permitir gerar o arquivo)
+
+6. Não criar o
