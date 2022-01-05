@@ -30,5 +30,3 @@
         >> tsc src/script.ts --outDir public (Js e Ts em pastas diferentes)
 
         >> tsc script.ts --noEmitOnError (Se tiver algum error no TS ele não vai permitir gerar o arquivo)
-
-6. Não criar o

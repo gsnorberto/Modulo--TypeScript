@@ -1,0 +1,13 @@
+Monitoramento automático - Compila automaticamente o arquivo TypeScript sempre que há alguma modificação gerando as modificações no arquivo JS.
+    >> tsc script.ts -w
+
+Comandos a nível de projeto:
+    Digite os seguintes comandos em sequência:
+        >> tsc --init  (cria o arquivo tsconfig.json)
+        >> tsc  (todos os arquivos typescript que forem encontrados (independetemente da pasta onde eles estejam) vão ser compilados e gerados os arquivs .js correspondentes)
+        >> tsc -w  (entra em watch mode - monitoramento do arquivo)
+
+
+
+Itens do tsconfig.json
+    Inclua no final do arquivo o "exclude": [] . Nele terá os arquivos que não serão compilados
