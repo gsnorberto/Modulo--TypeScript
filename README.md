@@ -1,2 +1,2 @@
-# Modulo--TypeScript
+# Modulo--TypeScript.
 B7Web Course - JS
